@@ -21,8 +21,27 @@ const obj1={a:1,b:2}
 const obj2={c:3,d:4}
 
 const obj3 ={...obj1,...obj2}
+const obj4=Object.assign({},obj1,obj2)
 
-x=obj3
+const todos=[
+    {
+        id:1,
+        name:'Buy Milk'
+    },
+    {
+        id:2,
+        name:'Pick up kids from school'
+    },
+    {
+        id:3,
+        name:'take out trash'
+    },
+]
 
+x=todos
 
-console.log(obj3)
+x=Object.keys(todos)
+x=Object.values(todos)
+x=Object.entries(todos)
+
+console.log(x)
