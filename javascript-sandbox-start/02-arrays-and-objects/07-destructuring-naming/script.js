@@ -24,3 +24,8 @@ const todo={
 
 const {id,title,user:{name}}=todo
 console.log(id,title,name)
+
+const numbers=[12,12,14,16,22]
+
+const [first,second,...rest]=numbers
+console.log(first,second,rest)
